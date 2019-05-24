@@ -2,6 +2,16 @@
 	margin: 0 auto;
 }
 
+a{
+	color: black !important;
+	text-decoration: none !important;
+}
+
+a:hover{
+	text-decoration: none !important;
+	color: black !important;
+}
+
 #rsociales{
 	background-color: rgba(255,255,255,0.45);
     border-top: 0.0625rem solid #d8dbdb;
@@ -32,8 +42,9 @@
 }
 
 #img-iniciar-sesion-menu{
-	width: 11%;
+	width: 6%;
 	right: 2%;
+	margin: 0 1% 0 2%;
 }
 
 
@@ -51,9 +62,54 @@ a.nav-link:hover{
 }
 
 .navbar-brand{
-	width: 15%;
+	width: 30%;
+}
+
+.titulo{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bolder;
+}
+
+img.img-titulo{
+	width: 9%;
 }
 
 footer{
 	bottom: 0;
+}
+
+#contenido{
+	margin-top: 7%;
+}
+
+/*Carreras*/
+
+div.carrera{
+	width: 25%;
+	margin: 4.1%;
+	float: left;
+	transition: 500ms all;
+}
+
+div.carrera:hover{
+	background-image: linear-gradient(gray, gray, white);
+	transform: scale(1.2);
+	box-shadow: 5px 5px 3px gray;
+}
+
+div.carrera img{
+	width: 100%;
+	border-bottom: solid #ffc107f5 4px;
+}
+
+div.carrera h2{
+	width: 85%;
+	color: #ffc107f5;
+	font-weight: bolder;
+}
+
+div.carrera p{
+	width: 85%;
+	font-size: 115%;
+	text-align: justify;
 }
